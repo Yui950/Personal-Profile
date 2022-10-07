@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wong Ho Yui" />
+    <title>Wong Ho Yui - Personal Profile</title>
+    <base target="_self" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+     -->
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/cv-icon.png" />
+    <link rel="bookmark" href="./img/cv-icon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./PC.css" />
+    <link rel="stylesheet" href="./PE.css" />
+
+    <script
+      src="https://kit.fontawesome.com/3949b2dc89.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <nav>
+      <div id="home">
+        <a href="#title_box"></a>
+      </div>
+      <div id="toolbar">
+        <!-- <a href="#title_box"><i class="fa-solid fa-user"></i></a> -->
+        <a href="#info_page"
+          >
+          About Me</a
+        >
+        <a href="#Education_page"
+          >Education and Certificate</a
+        >
+        <a href="#Skills_page">
+        Skills</a
+        >
+        <a href="#work_page"
+          >Work Experience</a
+        >
+        <a href="#contact_page"
+          >Contact Me</a
+        >
+      </div>
+      <div id="style_box"><a href="./index.html">繁中</a></div>
+    </nav>
+
+    <div id="nav_pe">
+      <button type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+      <ul style="color: rgba(100, 100, 100, 0)" class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href="#info_page">About Me</a></li>
+        <li><a class="dropdown-item" href="#Education_page">Education and Certificate</a></li>
+        <li><a class="dropdown-item" href="#Skills_page">Skills</a></li>
+        <li><a class="dropdown-item" href="#work_page">Work Experience</a></li>
+        <li><a class="dropdown-item" href="#contact_page">Contact Me</a></li>
+        <li><a class="dropdown-item" href="./index.html">繁中</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- p1 -->
+      <div id="first_page">
+        <div id="title_box">
+          <p id="nameid1">
+            <span id="name1">Hi! </span>
+            <span id="name2">I'm </span>
+          </p>
+          <p id="nameid2">
+            <span id="name3">Wong </span>
+            <span id="name4">Ho </span>
+            <span id="name5">Yui </span>
+          </p>
+      </div></div>
+
+      <div id="bar"></div>
+
+      <!-- Info_page -->
+
+      <div id="info_page">
+        <div id="textbox_info" class="info_page">
+          <h2 class="info_text">About Me</h2>
+          <p class="info_text">Hi! I'm Wong Ho Yui, an individual with an interest in digitalization and new technology.</p>
+          <p class="info_text">In high school, I chose to take a computer course. At that time, 
+                the content of the computer course was about the database. 
+                So the first computer language I was exposed to was SQL. 
+                Then I went to the Higher Diploma. I was exposed to more tools and languages like Arduino, 
+                Android Studio, and python. And during my internship, 
+                I wrote a program for myself in python - a program that automatically gets data.</p>
+        </div>
+        <div id="IMG" class="info_page">
+          <img id="myphoto" src="./img/myphoto.png" alt="myphoto" />
+        </div>
+      </div>
+
+      <!-- Page3 -->
+      <div id="Education_page">
+        <div id="Education_form">
+          <table id="Education_id">
+            <thead>
+              <tr>
+                <th  class="title" colspan="5">
+                  <h2>Education and Certificate</h2>
+                </th>
+              </tr>
+              <tr>
+                <th class="Education">School</th>
+                <th class="Education">Years</th>
+                <th class="Education">Course</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="Education">
+                  Hong Kong Institute of Vocational Education
+                </td>
+                <td class="Education">2020-2022</td>
+                <td class="Education">
+                  Higher Diploma in Computer and Electronic Engineering
+                </td>
+              </tr>
+              <tr>
+                <td class="Education">
+                  Hong Kong Institute of Vocational Education
+                </td>
+                <td class="Education">2019-2020</td>
+                <td class="Education">
+                  Diploma of Foundation Studies - Engineering
+                </td>
+              </tr>
+              <tr>
+                <td class="Education">Notre Dame College</td>
+                <td class="Education">2013-2019</td>
+                <td class="Education">High school</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- p4 -->
+      <!-- Skills-->
+      <div id="Skills_page">
+        <div id="Skills_page_title" class="title"><h2>Skills</h2></div>
+        <div id="skills_box">
+          <div id="arduino_box" class="arduino, box">
+            <img
+              id="arduino_img"
+              class="arduino"
+              src="./img/arduino_logo.png"
+              alt="arduino_logo"
+            />
+            <p class="arduino">Arduino</p>
+          </div>
+          <div id="python_box" class="python, box">
+            <img
+              id="python_img"
+              class="python"
+              src="./img/python_logo.png"
+              alt="python_logo"
+            />
+            <p class="python">Python</p>
+          </div>
+          <div id="html_box" class="html, box">
+            <img
+              id="html_img"
+              class="html"
+              src="./img/html_logo.png"
+              alt="html_logo"
+            />
+            <p class="html">HTML</p>
+          </div>
+          <div id="css_box" class="css, box">
+            <img
+              id="css_img"
+              class="css"
+              src="./img/css_logo.png"
+              alt="css_logo"
+            />
+            <p class="css">CSS</p>
+          </div>
+          <div id="js_box" class="js, box">
+            <img id="js_img" class="js" src="./img/js_logo.png" alt="js_logo" />
+            <p class="js">JavaScript</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- p5 -->
+      <div id="work_page">
+        <div id="work_page_title"  class="title"><h2>Work Experience</h2></div>
+              <!-- work 1 -->
+              <div id="work_1" class="work">
+                <div id="work_1_img_box">
+                  <a target="_blank" href="https://www.ai-guided.com/home"><img
+                    id="aiguided_logo"
+                    class="company_logo"
+                    src="./img/aiguided_logo.jpg"
+                    alt="aiguided_logo"
+                  />
+                  </a>
+                  <p>AI GUIDED LIMITED</p>
+                </div>
+                <div class="work_hr"></div>
+                <div id="work_1_text_box">
+                  <p class="date">January 2022 to April 2022</p>
+                  <p class="position">Internship</p>
+                  <p class="work_detail">
+                    Using python to complete projexts related to deep learning. The project is divided into two main parts. Data collection and machine learning. First I need to write a program to automatically collect the data required for machine learning. Due to a large amount of data necessary for machine learning, manual data collection is not possible.
+                  </p>
+                  <br>
+                  <p class="project">Project:</p>
+                  <p class="project">Machine Vision-based Pedestrian Precinct Detection Deployed on Edge Computer for Potential Applications in Wearable Devices</p>
+                  <button id="project_details_button"><i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+            </div>
+
+  <!-- work 1 project -->
+        <div id="project_part">
+            <div id="project_title" class="project_content" style="opacity: 0;">
+              <p>Company: AI GUIDED LIMITED</p>
+              <p>Project: Machine Vision-based Pedestrian Precinct Detection Deployed on Edge Computer for Potential Applications in Wearable Devices</p>
+          </div>
+            <div id="work_1_img_box" class="project_content" style="opacity: 0;">
+                <img id="edge_img" src="./img/edge.png" alt="edge_img">
+                <img id="path" src="./img/demo.gif" alt="demo_img">
+            </div>
+            <div id="project_hr" class="project_content" class="work_hr" style="opacity: 0;"></div>
+            <div id="work_1_text_box" class="project_content" style="opacity: 0;">
+              <p>My program identifies the path of the video, the noise, and where the user should go by the conditions I add. Then it saves the photos and data of each frame.</p>
+              <p>Since we cannot add conditions and rules for all cases, we need to use machine learning to compensate for this shortcoming.</p>
+              <p>Finally, the collected data is put into the neural network for training by Transfer learning. The blue line in the above GIF is the result of the neural network estimation. It represents the path that the user can walk.</p>
+              </div>
+          </div>
+
+        <!-- work 2 -->
+        <div id="work_2" class="work">
+          <div id="work_2_img_box">
+            <a target="_blank" href="https://www.circlek.hk/">
+              <div id="ok_box">
+                <img
+                  id="ok_logo"
+                  class="company_logo"
+                  src="./img/ok_logo.png"
+                  alt="ok_logo"/></a></div>
+            <p>CIRCLE K</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_2_text_box">
+            <p class="date">April 2021 to December 2021</p>
+            <p class="position">Shop assistant</p>
+            <p class="work_detail">
+              Communicating, selling, and promoting products
+            </p>
+          </div>
+        </div>
+
+        <!-- work 3 -->
+        <div id="work_3" class="work">
+          <div id="work_3_img_box">
+            <a target="_blank" href="http://www.pizzamonster.hk/">
+              <img
+              id="pizzamonster_logo"
+              class="company_logo"
+              src="./img/pizzamonster_logo.jpg"
+              alt="pizzamonster_logo"
+            />
+            </a>
+            <p>PIZZA MONSTER</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_3_text_box">
+            <p class="date">October 2020 to May 2021</p>
+            <p class="position">Kitchen</p>
+            <p class="work_detail">
+              Responsible for the operation of the kitchen
+            </p>
+          </div>
+        </div>
+
+                <!-- work 4 -->
+        <div id="work_4" class="work">
+          <div id="work_4_img_box">
+            <a target="_blank" href="https://www.dr-kong.com.hk/">
+              <img
+              id="drkong_logo"
+              class="company_logo"
+              src="./img/drkong_logo.png"
+              alt="drkong_logo"
+            />
+            </a>
+            <p>DR. KONG</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_3_text_box">
+            <p class="date">Summer 2019</p>
+            <p class="position">Salesperson</p>
+            <p class="work_detail">
+              Mainly communicate with customers and provide good services
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- p7 -->
+      <!--  -->
+      <div id="contact_page">
+        <div id="contact_page_title" class="title"><h2>Contact Me</h2></div>
+        <div id="contact_form_box">
+          <form action="">
+            <input type="text" name="name" id="input_name" class="form_text" placeholder="Name">
+            <input type="email" name="email" id="input_email" class="form_text" placeholder="E-mail">
+            <input type="number" name="phone_number" id="input_num" class="form_text" placeholder="Phone Number" >
+            <textarea name="message" id="input_message" class="form_text" cols="30" rows="10" placeholder="Message"></textarea>
+            <button id="submit_button">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <!--  -->
+      <footer>
+        <div id="contact_bar">
+          <p class="contact_text">Phone: 5372-3090</p>
+          <p class="contact_text">Email: hoyuiwong@gmail.com</p>
+          <a class="contact_img" target="_blank" href="https://wa.me/85253723090"><i class="fa-brands fa-whatsapp"></i></a>
+          <a class="contact_img" target="_blank" href="https://www.linkedin.com/in/ho-yui-wong-1bba05228/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="./try.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</html>

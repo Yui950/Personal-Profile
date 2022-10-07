@@ -1,0 +1,243 @@
+@media all and (max-width: 880px) {
+  nav {
+    display: none;
+  }
+  #nav_pe {
+    display: flex;
+    position: fixed;
+    background-color: none;
+    left: 30px;
+    top: 30px;
+    z-index: 5;
+    transition: 0.5s ease-in-out;
+  }
+
+  #nav_pe button {
+    background-color: rgba(100, 100, 100, 0);
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+  }
+
+  #nav_pe button:active {
+    transform: show(1.2);
+    transition: 0.5s ease-in-out;
+  }
+
+  .dropdown-menu-dark {
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  //footer
+  footer {
+    height: 200px;
+  }
+
+  #contact_bar {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .contact_text {
+    font-size: 20px;
+  }
+
+  #contact_img_box {
+    display: flex;
+    font-size: 60px;
+    gap: 40px;
+    margin: 20px;
+  }
+}
+
+@media all and (max-width: 1110px) {
+  .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  /* p1 */
+  #title_box {
+    width: 80%;
+  }
+
+  #nameid1,
+  #nameid2 {
+    font-size: 40px;
+  }
+  /* p2 */
+  #textbox_info {
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+  }
+  p.info_text,
+  h2.info_text {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  #IMG {
+    width: 314px;
+    height: 394px;
+  }
+
+  /* p3 */
+  td.Education,
+  th.Education {
+    font-size: 15px;
+  }
+
+  /* p4 */
+  #Skills_page {
+    padding: 5px;
+  }
+
+  #Skills_page p {
+    font-size: 15px;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #arduino_img {
+    width: 125px;
+    height: 85px;
+  }
+
+  #python_img {
+    width: 78px;
+    height: 85px;
+  }
+
+  #html_img {
+    width: 85px;
+    height: 85px;
+  }
+
+  #css_img {
+    width: 61px;
+    height: 85px;
+  }
+
+  #js_img {
+    width: 85px;
+    height: 85px;
+  }
+
+  /* p5 */
+  #work_1,
+  #work_2,
+  #work_3,
+  #work_4 {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px -3px black;
+    transition: 1s ease-in-out;
+  }
+
+  #project_part {
+    width: 90vw;
+    padding: 20px;
+  }
+
+  #aiguided_logo,
+  #pizzamonster_logo,
+  #ok_logo,
+  #drkong_logo {
+    max-width: 150px;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #work_1_img_box,
+  #work_2_img_box,
+  #work_3_img_box,
+  #work_4_img_box,
+  #work_1_text_box,
+  #work_2_text_box,
+  #work_3_text_box,
+  #work_4_text_box {
+    width: 100%;
+    font-size: 20px;
+    padding: 0;
+  }
+
+  #work_1 {
+    margin: auto;
+  }
+
+  #work_page p {
+    font-size: 15px;
+  }
+
+  #project_details_button {
+    font-size: 15px;
+    width: 70px;
+  }
+
+  #edge_img {
+    width: 281px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  .work_hr,
+  #project_hr {
+    width: 60vw;
+    height: 2px;
+    margin: 10px;
+    background-image: linear-gradient(
+      to left,
+      rgb(80, 80, 80),
+      white,
+      rgb(80, 80, 80)
+    );
+  }
+
+  .work_detail,
+  .position,
+  .project,
+  .date {
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  /* p7 */
+  #contact_page {
+    padding: 10px;
+  }
+
+  #contact_form_box form {
+    padding: 10px;
+  }
+
+  #input_name,
+  #input_email,
+  #input_num,
+  #input_message,
+  #submit_button {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 680px) {
+  #project_details {
+    flex-direction: column;
+    align-items: center;
+  }
+}
